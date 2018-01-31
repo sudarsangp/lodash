@@ -4052,6 +4052,14 @@
      * @param {number} [start=0] The start position.
      * @param {number} [end=array.length] The end position.
      * @returns {Array} Returns the slice of `array`.
+     * @example
+     *
+     * const array = [1, 2, 3, 4]
+     * _.slice(a, 2)
+     * // => [3, 4]
+     *
+     * _.slice(a, 1, 3)
+     * // => [2, 3]
      */
     function baseSlice(array, start, end) {
       var index = -1,
